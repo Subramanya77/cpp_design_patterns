@@ -1,0 +1,31 @@
+// RELATIONSHIP / REUSABILITY:
+//1. Code reusability -> IS A -> Inheritance
+//2. Object reusability -> HAS A
+
+class A{
+    // A responsibility
+}
+
+class B : A{
+    // B want to use all responsibility of A -> If COMPLETE CODE IS REUSED, its a "IS A" relationship = INHERITANCE
+    // Inheritance is a static relationship can't change after compilation. It must be re-compiled. Ex. real parent child example
+    // Inheritance is a one way reusability
+    // Ripple effect. If Base class is changed, child class is also changed
+}
+
+class C{
+
+}
+class D{    
+    C obj;      //OBJECT REUSABILITY = HAS A relationship.  Prefer "has a" over "is a"
+}
+
+/*
+1.  is-a relationship: one role assumes another role
+Inheritance - complete code reusability
+
+2.  has-a relationship: one object uses another object. Object reusability
+Composition - contains
+Aggregation - holds
+Association - associated
+*/
