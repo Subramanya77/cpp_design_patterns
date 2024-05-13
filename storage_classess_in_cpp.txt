@@ -1,0 +1,46 @@
+It talks about the scope of our content.
+
+C has only limited to file scope. So moving c++
+Structure also is public.
+So need the special compiler
+
+File scope -----> paradigm called object oriented ----------> 
+
+Object - occupies space. Data that goes inside the space can be private. Or not for everyone. 
+Ex. CTC
+
+Where data is stored:
+	1. Stack
+	2. Heap - dynamic data allocation / dynamic mem map. Allocation is not dynamic, lifetime is dynamic.
+	In c++ Using new and delete, developer an control the lifetime of the memory. 
+	In java and .net, developer can create/allocate. It will delete/clear memory automatically using garbage collectors.
+	new is used in heap
+	3. Registers
+	4. Global - prog start to prog end
+
+	1. Stack:
+	Thread stack. Every threads will have diff stack. Thread knows only functions. Req boundary i.e, functions as input.
+	Recursive function -> funct calling itself
+	So stack is short lived memory. Will be there until function is there.
+	Thread safety.
+	No memory leak. (Stack->pointer->heap and vice versa)
+	So stack >> heap.
+	
+	Ex. Money needed is in wallet vs atm every time.
+	Learn threads
+	
+	Limitation: Data will be cleared once function execution is over. And if same function is called again memory should be allocated.
+	Auto -> allocated - reallocated,  allocated - reallocated. Default "Auto"
+	Static -> value will be reused.
+	
+	If data is constant, it should be declared as "static"
+	Ex. 
+	Void test()
+	{ static int x = 10;
+	X++;
+	}
+	Main ()
+	Test() -> 10
+	Test() -> 11
+	
+	To avoid memory leak, smart pointers is introduced.
