@@ -1,0 +1,25 @@
+venu.shastri@gmail.com
+Document/repo venu:
+https://github.com/venu-shastri/cplus-knowledge-repo
+
+https://www.includehelp.com/articles/execution-process-of-a-c-program.aspx
+
+https://google.github.io/googletest/primer.html
+
+https://en.cppreference.com/w/
+
+https://refactoring.guru/design-patterns/singleton/cpp/example
+
+vexing parsing:
+https://www.bing.com/search?pglt=43&q=vexparsing+issue+in+c%2B%2B&cvid=f6e4230066c747dea80b624494334d66&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDc0NThqMGoxqAIAsAIB&FORM=ANNAB1&PC=U531
+
+https://isocpp.org/wiki/faq/const-correctness
+
+https://www.srcmake.com/home/cpp-debug-gdb
+
+Books:
+
+1.  https://www.oreilly.com/library/view/concurrent-programming-on/9780321434821/
+2.  art of code readability pdf
+3.  Real time c++ book
+
