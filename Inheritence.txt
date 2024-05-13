@@ -1,0 +1,13 @@
+INHERITANCE:
+	1. Family of classes: 
+	set of classes from same family(ex. Speed sensors is a family of sensors which has active and passive sensors).
+	2. Separate common code from variation:
+	Every class from family has a common code/functionality.
+	3. Separate generalization from specialization:
+	So keep the common code in a separate class and can be reused by other classes.
+	4. Additive
+	5. Inherits interface and Implementation
+	6. Parent - child Relationship (real word analogy)
+	7. Birth 
+
+When Inheritance is called, compiler will ignore all constructor in base class and consider only default constructor. So always have a constructor using private.
